@@ -7,6 +7,10 @@
 > **Stochastic Fundamental Diagram Modeling of Mixed Traffic Flow: A Data-Driven Approach**  
 > Published in *Transportation Research Part C*  
 
+<p align="center">
+  <img src="/Mixed_SFD_framework_eng.svg" width="100%" />
+</p>
+
 ## 🔗 Abstract | 摘要
 
 The integration of automated vehicles (AVs) into existing traffic of human-driven vehicles (HVs) poses significant challenges in modeling and optimizing mixed traffic flow. Existing research often neglects the stochastic nature of traffic flow that is further complicated by AVs, and relies on oversimplified assumptions or specific car-following models. Moreover, the under-utilization of empirical AV datasets undermines realism.
@@ -26,6 +30,9 @@ Results show that higher AV penetration reduces capacity mean and variance due t
 >
 > 基于Waymo数据集进行案例研究发现，随着AV渗透率上升，混合交通流的随机性下降（通行能力标准差降低），系统可靠性与运行平稳性提升。然而，交通效率却随之下降（通行能力期望与关键密度降低），印证了已有实证研究中AV稳定但保守的行为特性。
 
+<p align="center">
+  <img src="/Mixed_SFD_framework_zh.svg" width="100%" />
+</p>
 
 ## 📂 Project Structure | 项目结构
 
