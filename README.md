@@ -30,15 +30,19 @@ Results show that higher AV penetration reduces capacity mean and variance due t
 ## 📂 Project Structure | 项目结构
 
 ```bash
-├── data/                     # Processed and trajectory datasets
-│   └── waymo/                # Waymo dataset (processed AV-AV, HV-AV and HV-HV car-following data)
-├── Micro_MDN/                      # Core codebase
-│   ├── trained_model/                # trained MDN model for three types of pair
-│   ├── MDN.py/                # Training scripts for MDN
-│   ├── inference/            # Platoon simulation and SFD derivation
-│   └── utils/                # Utilities and preprocessing
-├── notebooks/                # Jupyter notebooks for analysis and visualization
-├── figures/                  # Output figures used in the paper
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
-└── LICENSE                   # License file
+├── Macro_SFD/
+│   ├── equilibrium_state_calculate.py       # Compute equilibrium states
+│   ├── leader_follower_conditional_distribution.py # Compute probabilistic leader-follower model
+│   ├── platoon_arrangment.py                # Assemble vehicle platoons as Markov chains
+│   ├── SFD_plot.py                          # Visualization of the resulting SFD
+│   ├── smooth_fd_analysis.py                # Analyze and smooth derived FD/SFD distributions
+│
+├── Micro_MDN/
+│   ├── trained_model/                       # Trained MDN models
+│   ├── MDN.py                               # Mixture Density Network architecture and training
+│   ├── block_tanh.py                        # Function for MDN
+│   ├── MDN_single_validate.py               # Validate MDN on testing trajectories
+│   └── data/
+│       └── waymo/                           # Processed Waymo trajectories of AV-AV, AV-HV and HV-HV
+│
+└── README.md
