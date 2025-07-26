@@ -1,6 +1,6 @@
 # 🚗 Stochastic Fundamental Diagram Modeling of Mixed Traffic Flow
 
-[![Paper](https://img.shields.io/badge/Paper-Transportation%20Research%20Part%20C-purple)](https://doi.org/your-doi-link)
+[![Paper](https://img.shields.io/badge/Paper-Transportation%20Research%20Part%20C-purple)](https://doi.org/10.1016/j.trc.2025.105279)
 [![Code Status](https://img.shields.io/badge/Status-Official%20Code-blue)]()
 
 > 🔍 **Official implementation of the paper:**  
@@ -53,3 +53,10 @@ Results show that higher AV penetration reduces capacity mean and variance due t
 │       └── waymo/                           # Processed Waymo trajectories of AV-AV, AV-HV and HV-HV
 │
 └── README.md
+```
+
+## 📄 Citation | 文献引用
+Zhang, X., Yang, K., Sun, J., & Sun, J. (2025).
+Stochastic fundamental diagram modeling of mixed traffic flow: A data-driven approach.
+Transportation Research Part C: Emerging Technologies, 179, 105279.
+https://doi.org/10.1016/j.trc.2025.105279
