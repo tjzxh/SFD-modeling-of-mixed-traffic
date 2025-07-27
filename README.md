@@ -24,7 +24,7 @@ This paper proposes a **novel data-driven framework** to model the **Stochastic 
 Results show that higher AV penetration reduces capacity mean and variance due to conservative but stable AV behavior.
 
 > 本文提出一种**数据驱动建模框架**，用于模拟**混合交通流的随机基本图（SFD）**。核心创新包括：
-> - 基于**混合密度网络（MDN）**学习各类跟驰对（HV-AV, HV-HV, AV-HV, AV-AV）的微观行为；
+> - 基于**混合密度网络（MDN）** 学习各类跟驰对（HV-AV, HV-HV, AV-HV, AV-AV）的微观行为；
 > - 利用**马尔可夫链建模**构建车队联合分布，并推导宏观流量关系；
 > - 在**NGSIM I-80**和**混合交通流仿真**上进行验证。
 >
